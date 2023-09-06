@@ -1,8 +1,11 @@
+## Next.js Boilerplate Apps Router
 
-![React Avançado](https://raw.githubusercontent.com/React-Avancado/boilerplate/master/public/img/logo-gh.svg)
+Boilerplate is a term used in software development that refers to a standard code or text that can be reused in different parts of a project. 
 
-This is a [Next.js](https://nextjs.org/) boilerplate to be used in a course called [React Avançado](https://reactavancado.com.br/).
-![ci](https://github.com/React-Avancado/boilerplate-apps-router/workflows/ci/badge.svg)
+The App Router is a new paradigm for building applications using React's latest features. If you're already familiar with Next.js, you'll find that the App Router is a natural evolution of the existing file-system based router in the Pages Router.
+
+It provides a common and pre-established foundation, avoiding the need to write repetitive code.
+
 ## What is inside?
 
 This project uses lot of stuff as:
@@ -31,6 +34,12 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 
 You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
 
+## Starting a project through our boilerplate
+
+```bash
+yarn create next-app -e https://github.com/GabrielDeFreitas/boilerplate
+```
+
 ## Commands
 
 - `dev`: runs your application on `localhost:3000`
@@ -41,6 +50,7 @@ You can start editing the page by modifying `pages/index.js`. The page auto-upda
 - `test:watch`: runs jest in watch mode
 - `storybook`: runs storybook on `localhost:6006`
 - `build-storybook`: create the build version of storybook
+- `generate`: automated file creation
 
 ## Learn More
 
